@@ -72,3 +72,74 @@ def test_detector_detects_new_and_handles_duplicates(tmp_path):
     store.save()
     new_models_run2 = detect_new_models([listing1], store, run_date)
     assert len(new_models_run2) == 0
+
+
+def test_config_validation_success():
+    from pipeline.config_schema import load_and_validate_config
+
+    config = load_and_validate_config("config.yaml")
+    assert config.http.user_agent.startswith("AuctionNow")
+    assert len(config.sources) >= 4
+
+
+def test_config_validation_missing_file(tmp_path):
+    import pytest
+
+    from pipeline.config_schema import load_and_validate_config
+
+    with pytest.raises(FileNotFoundError):
+        load_and_validate_config(tmp_path / "non_existent_config.yaml")
+
+
+def test_config_validation_invalid_schema(tmp_path):
+    import pytest
+    from pydantic import ValidationError
+
+    from pipeline.config_schema import load_and_validate_config
+
+    bad_config = tmp_path / "bad_config.yaml"
+    # Invalid: missing required http.user_agent, invalid category
+    bad_config.write_text(
+        """
+paths:
+  runs_dir: runs
+http:
+  default_timeout_seconds: -5
+sources:
+  - id: test
+    category: invalid_category
+    name: Test
+    base_url: not_a_url
+""",
+        encoding="utf-8",
+    )
+
+    with pytest.raises(ValidationError) as exc:
+        load_and_validate_config(bad_config)
+    errors = str(exc.value)
+    assert "user_agent" in errors or "invalid_category" in errors
+
+
+def test_http_client_403_fails_fast(monkeypatch, tmp_path):
+    import httpx
+    import pytest
+
+    from pipeline.http_client import PoliteClient
+
+    client = PoliteClient(user_agent="TestBot/1.0", cache_dir=str(tmp_path / ".cache"), max_retries=3)
+
+    call_count = 0
+
+    def mock_get(*args, **kwargs):
+        nonlocal call_count
+        call_count += 1
+        req = httpx.Request("GET", args[0])
+        return httpx.Response(status_code=403, request=req)
+
+    monkeypatch.setattr(httpx, "get", mock_get)
+
+    with pytest.raises(httpx.HTTPStatusError):
+        client.get("https://forbidden.example/page", rate_limit_seconds=0)
+
+    # 403 must fail immediately without retrying
+    assert call_count == 1
