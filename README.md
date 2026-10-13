@@ -1,100 +1,189 @@
 # AuctionNow — PK Market Data Engine
 
-Weekly engine that detects **new car and mobile phone models** on Pakistani
-sources and produces a reviewable JSON report. See
-`AuctionNow_PK_Scraper_Engine_Design.md` for the full design doc — this repo
-is Phase 0/1 of that plan.
+Weekly discovery pipeline that detects **newly released car and mobile phone models** on Pakistani market sources, fetches complete specifications for confirmed-new models, and produces a reviewable JSON report (`runs/<date>/new_models.json`).
 
-## What's here
+> **Core Principle**: This pipeline is strictly additive and human-in-the-loop. It generates reviewable reports and **NEVER** writes directly to production product/catalog databases.
+
+---
+
+## Architecture Overview
 
 ```
 pk_market_engine/
-├── config.yaml              # sources, rate limits, paths
+├── config.yaml                     # Sources, rate limits, storage paths (strictly validated)
 ├── pipeline/
-│   ├── schema.py             # Pydantic models = the JSON output contract
-│   ├── robots_check.py       # fetch + parse robots.txt BEFORE scraping
-│   ├── http_client.py        # rate-limited, cached, polite fetcher
-│   ├── fingerprint.py        # "have we seen this model before?" store
-│   ├── detector.py           # diffs this run vs last run -> new models
-│   ├── output_writer.py      # writes runs/<date>/new_models.json
-│   └── orchestrator.py       # wires it all together, runs every adapter
+│   ├── config_schema.py            # Pydantic models validating config.yaml at startup
+│   ├── logger.py                   # Structured logging (timestamps, levels, context)
+│   ├── schema.py                   # JSON output contract (RawListing, NewModelEntry, RunReport)
+│   ├── robots_check.py             # robots.txt compliance gate
+│   ├── http_client.py              # Polite rate-limited fetcher with retries & on-disk cache
+│   ├── fingerprint.py              # Incremental discovery store (storage/fingerprints.json)
+│   ├── detector.py                 # Fuzzy diffing & naming variant deduplication
+│   ├── output_writer.py            # Writes runs/<date>/new_models.json
+│   └── orchestrator.py             # Wires execution, fault isolation & reports
 ├── adapters/
-│   ├── base.py                # interface every source adapter implements
-│   ├── cars/pakwheels_new_cars.py
-│   └── mobiles/whatmobile.py
-├── scripts/run_weekly.py      # entrypoint (what the scheduler calls)
-├── storage/fingerprints.json  # the "last run" baseline (starts empty)
-└── .github/workflows/weekly_scrape.yml   # weekly cron trigger
+│   ├── base.py                     # Base adapter interface (list_candidates + fetch_detail)
+│   ├── mobiles/
+│   │   ├── whatmobile.py           # WhatMobile adapter (table specs, PKR prices, variants)
+│   │   └── priceoye.py             # PriceOye adapter (Schema.org JSON-LD & DOM parser)
+│   └── cars/
+│       ├── pakwheels_new_cars.py   # PakWheels new car catalog adapter
+│       └── toyota_indus.py         # Indus Motor Company (Toyota Pakistan) official specs
+├── tests/
+│   ├── fixtures/                   # Real offline HTML snapshots
+│   ├── test_adapters.py            # Unit tests for all adapters
+│   └── test_pipeline.py            # Unit tests for fingerprinting, detector, & resilience
+├── scripts/run_weekly.py           # CLI entrypoint
+├── storage/fingerprints.json       # Persisted baseline of known models
+└── .github/workflows/
+    ├── ci.yml                      # CI: runs lint (ruff) and offline test suite
+    └── weekly_scrape.yml           # Weekly cron trigger and artifact publisher
 ```
 
-## Status: scaffold, not finished
+---
 
-The **framework is real and working**: config loading, the robots.txt gate,
-rate-limited HTTP client with on-disk caching, the fingerprint/diff logic,
-and the JSON writer. Run it now and it will execute end-to-end and produce
-a (mostly empty) report — that's by design, see below.
+## Active & Verified Sources
 
-The **two adapters are skeletons**. `fetch_listing()` and `parse_detail()`
-have `# TODO` markers instead of real CSS selectors, because I have not
-fetched the live pages from inside this chat — selectors must be written
-against the actual current HTML, by someone looking at the real page
-(view-source or browser devtools), not guessed. That's step 1 below.
+| Source ID | Category | Domain | Extraction Technique |
+|-----------|----------|--------|----------------------|
+| `whatmobile` | Mobile | `whatmobile.com.pk` | Structured spec tables, PKR price regex, color & RAM tokens |
+| `priceoye` | Mobile | `priceoye.pk` | Schema.org Product JSON-LD, size/color swatch selectors |
+| `pakwheels_new_cars` | Car | `pakwheels.com` | Automotive specs tables, CDN pictures, variant price matrix |
+| `indus_motor_toyota` | Car | `toyota-indus.com` | Official manufacturer vehicle catalogs, dimension tables |
 
-## Setup
+---
+
+## Setup & Local Development
 
 ```bash
-cd pk_market_engine
-python3 -m venv .venv && source .venv/bin/activate
+# 1. Clone repository
+git clone https://github.com/Dani2003/AuctionNow_DataScraping.git
+cd AuctionNow_DataScraping
+
+# 2. Create and activate virtual environment
+python3 -m venv .venv
+# On Windows:
+.venv\Scripts\activate
+# On Linux/macOS:
+source .venv/bin/activate
+
+# 3. Install dependencies
 pip install -r requirements.txt
 ```
 
-## Step 1 — before writing any adapter code
+---
+
+## Running the Pipeline
 
 ```bash
-python -m pipeline.robots_check
+# Run all enabled sources
+python -m scripts.run_weekly
+
+# Run a single source with limit (ideal for quick verification)
+python -m scripts.run_weekly --adapter whatmobile --limit 5
+python -m scripts.run_weekly --adapter priceoye --limit 5
+python -m scripts.run_weekly --adapter pakwheels_new_cars --limit 5
+python -m scripts.run_weekly --adapter indus_motor_toyota --limit 5
 ```
 
-This fetches and parses `robots.txt` for every source in `config.yaml` and
-prints what's allowed/disallowed. **Do this for every new source before
-writing its adapter.** If a path you need is disallowed, don't scrape it —
-flag it in the design doc and find another source or an official API.
+---
 
-## Step 2 — fill in one adapter
+## Testing & Quality Gates
 
-Open `adapters/mobiles/whatmobile.py` (simplest site to start with — plain
-HTML tables, no JS rendering needed). Steps:
+The test suite runs **100% offline** using saved HTML fixtures located in `tests/fixtures/`:
 
-1. Open a real listing page in your browser, view source.
-2. Replace the `# TODO` selectors in `fetch_listing()` and `parse_detail()`
-   with the real ones.
-3. Run just that adapter:
-   ```bash
-   python -m scripts.run_weekly --adapter whatmobile --limit 5
-   ```
-4. Check `runs/<today>/new_models.json` — every model should show up as
-   "new" on the very first run (empty fingerprint store), which is how you
-   confirm parsing worked before testing the diff logic itself.
-5. Run it again unchanged — this time `new_models` should be **empty**,
-   proving the fingerprint/diff logic works.
+```bash
+# Run offline test suite
+pytest -v
 
-Repeat for `adapters/cars/pakwheels_new_cars.py`.
+# Run linter
+ruff check .
+```
 
-## Step 3 — schedule it
+---
 
-`.github/workflows/weekly_scrape.yml` is ready — it runs every Monday at
-02:00 UTC and uploads the run's JSON as a workflow artifact. Turn it on
-once both adapters work locally. Add a Slack webhook (see the commented-out
-block in the workflow file) once you want weekly notifications.
+## How to Add a New Source (Step-by-Step Guide)
 
-## Design rules this scaffold already enforces
+Adding a new source is repeatable, testable, and gated by compliance checks:
 
-- **robots.txt is checked before every run**, not just once by hand.
-- **Rate-limited per domain** (`config.yaml` → `rate_limit_seconds`),
-  default 3s between requests to the same host.
-- **Raw HTML is cached** under `.cache/` for a few days, so re-running
-  while debugging a parser doesn't hammer the live site.
-- **Fingerprint store only updates on a fully successful run** — a crash
-  mid-run can't corrupt next week's baseline.
-- **Output is additive JSON, never a direct write into AuctionNow's DB.**
-  A human reviews `runs/<date>/new_models.json` before anything gets added
-  to the product catalog.
+### Step 1: Compliance & robots.txt Gate
+Before writing any scraper code, check the robots.txt permissions:
+```bash
+python -m pipeline.robots_check --source <new_source_id> --path <target_path>
+```
+> [!IMPORTANT]
+> If the path is disallowed in `robots.txt`, **DO NOT SCRAPE IT**. Find an alternative official path or API.
+
+### Step 2: Capture HTML Fixtures
+Save realistic sample pages under `tests/fixtures/` so tests never depend on the live web:
+1. Save an index/listing page as `tests/fixtures/<source>_listing.html`.
+2. Save a representative model/detail page as `tests/fixtures/<source>_detail.html`.
+
+### Step 3: Implement Adapter Subclass
+Create a new adapter file in `adapters/mobiles/<source>.py` or `adapters/cars/<source>.py` inheriting from `BaseAdapter`:
+
+```python
+from adapters.base import BaseAdapter
+from pipeline.schema import RawListing, Category, SourceRef
+
+class MyNewSourceAdapter(BaseAdapter):
+    source_id = "my_source"
+    category = "mobile"  # or "car"
+
+    def list_candidates(self) -> list[dict]:
+        html = self.client.get(self.base_url, rate_limit_seconds=self.rate_limit_seconds)
+        return self.parse_candidates_from_html(html)
+
+    def parse_candidates_from_html(self, html: str) -> list[dict]:
+        # Pure parsing logic for testability
+        ...
+        return [{"brand": brand, "model": model, "variant": variant, "url": url}]
+
+    def fetch_detail(self, candidate: dict) -> RawListing:
+        html = self.client.get(candidate["url"], rate_limit_seconds=self.rate_limit_seconds)
+        return self.parse_detail_from_html(candidate, html)
+
+    def parse_detail_from_html(self, candidate: dict, html: str) -> RawListing:
+        # Extract specs, price_pkr, color_options, images
+        ...
+        return RawListing(...)
+```
+
+### Step 4: Register the Adapter
+In `pipeline/orchestrator.py`, add your adapter to `ADAPTER_REGISTRY`:
+```python
+ADAPTER_REGISTRY = {
+    ...
+    "my_source": "adapters.mobiles.my_source:MyNewSourceAdapter",
+}
+```
+
+### Step 5: Configure in `config.yaml`
+Add the source definition to `config.yaml`:
+```yaml
+  - id: my_source
+    category: mobile
+    name: "My Source Name"
+    base_url: "https://example.com"
+    enabled: true
+    rate_limit_seconds: 4
+```
+
+### Step 6: Write Offline Unit Tests
+In `tests/test_adapters.py`, add fixture tests:
+```python
+def test_my_source_candidates_from_fixture(dummy_client):
+    html = (FIXTURES_DIR / "my_source_listing.html").read_text(encoding="utf-8")
+    adapter = MyNewSourceAdapter(dummy_client, "https://example.com", rate_limit_seconds=0)
+    candidates = adapter.parse_candidates_from_html(html)
+    assert len(candidates) > 0
+```
+Run `pytest -v` to ensure tests pass offline.
+
+### Step 7: Verify Live End-to-End Execution
+Run the new source with a small limit:
+```bash
+python -m scripts.run_weekly --adapter my_source --limit 5
+```
+- Verify `runs/<date>/new_models.json` contains valid models.
+- Run a second time with the same command to confirm `new_models` returns **0** (proving fingerprint diffing works).
