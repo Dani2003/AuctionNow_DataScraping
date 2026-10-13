@@ -19,11 +19,47 @@
     "first_seen": "2026-10-13",
     "last_seen": "2026-10-13"
   },
+  "car:toyota:camry-hybrid": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
+  "car:toyota:corolla": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
+  "car:toyota:corolla-cross": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
+  "car:toyota:yaris": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
+  "mobile:honor:x8d": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
   "mobile:infinix:hot-70": {
     "first_seen": "2026-10-13",
     "last_seen": "2026-10-13"
   },
   "mobile:infinix:hot-70-pro": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
+  "mobile:infinix:note-60-edge-5g": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
+  "mobile:infinix:smart-20": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
+  "mobile:motorola:edge-70-fusion": {
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13"
+  },
+  "mobile:nothing:cmf-phone-1-5g": {
     "first_seen": "2026-10-13",
     "last_seen": "2026-10-13"
   },
