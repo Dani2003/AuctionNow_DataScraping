@@ -25,7 +25,7 @@ sources:
     category: mobile
     name: "PriceOye.pk"
     base_url: "https://priceoye.pk"
-    enabled: false
+    enabled: true            # enabled after robots_check passed and adapter implemented
     rate_limit_seconds: 4
     notes: "Secondary source, useful for price cross-check against whatmobile."
 
@@ -48,8 +48,8 @@ sources:
   - id: indus_motor_toyota
     category: car
     name: "Indus Motor Company (Toyota Pakistan)"
-    base_url: "https://www.toyota-indus.com"
-    enabled: false
+    base_url: "https://toyota-indus.com"
+    enabled: true            # enabled after robots_check passed and adapter implemented
     rate_limit_seconds: 5
     notes: "Manufacturer official specs. Add after PakWheels adapter is proven."
 
