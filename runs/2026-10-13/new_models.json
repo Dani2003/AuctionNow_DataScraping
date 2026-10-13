@@ -1,0 +1,12 @@
+{
+  "run_id": "2026-10-13T12-00-36Z",
+  "run_date": "2026-10-13",
+  "summary": {
+    "sources_run": 1,
+    "sources_failed": 0,
+    "new_cars": 0,
+    "new_mobiles": 0
+  },
+  "new_models": [],
+  "errors": []
+}

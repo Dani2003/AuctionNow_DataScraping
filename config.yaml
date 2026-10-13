@@ -1,0 +1,57 @@
+# AuctionNow PK Market Engine — configuration
+# Add a new source by adding one entry here + one adapter file.
+
+paths:
+  fingerprint_store: storage/fingerprints.json
+  runs_dir: runs
+  cache_dir: .cache
+
+http:
+  user_agent: "AuctionNowMarketBot/0.1 (+contact: your-team@auctionnow.example; purpose: product catalog research)"
+  default_timeout_seconds: 15
+  default_rate_limit_seconds: 3     # minimum delay between requests to the SAME domain
+  cache_max_age_hours: 72           # re-use cached HTML within this window
+
+sources:
+  - id: whatmobile
+    category: mobile
+    name: "Whatmobile.com.pk"
+    base_url: "https://www.whatmobile.com.pk"
+    enabled: true            # enabled after robots_check passed and adapter implemented
+    rate_limit_seconds: 4
+    notes: "Pakistan-specific pricing + structured spec tables. Confirmed PKR pricing format."
+
+  - id: priceoye
+    category: mobile
+    name: "PriceOye.pk"
+    base_url: "https://priceoye.pk"
+    enabled: false
+    rate_limit_seconds: 4
+    notes: "Secondary source, useful for price cross-check against whatmobile."
+
+  - id: gsmarena_fallback
+    category: mobile
+    name: "GSMArena (global fallback only)"
+    base_url: "https://www.gsmarena.com"
+    enabled: false
+    rate_limit_seconds: 5
+    notes: "NOT Pakistan-specific. Use only to fill spec gaps; always tag spec_source=fallback_global."
+
+  - id: pakwheels_new_cars
+    category: car
+    name: "PakWheels — New Cars"
+    base_url: "https://www.pakwheels.com"
+    enabled: true            # enabled after robots_check passed and adapter implemented
+    rate_limit_seconds: 5
+    notes: "New-car catalog section only — NOT the used-car classifieds/marketplace."
+
+  - id: indus_motor_toyota
+    category: car
+    name: "Indus Motor Company (Toyota Pakistan)"
+    base_url: "https://www.toyota-indus.com"
+    enabled: false
+    rate_limit_seconds: 5
+    notes: "Manufacturer official specs. Add after PakWheels adapter is proven."
+
+notifications:
+  slack_webhook_url: ""   # set via environment/secret in CI, not committed here
