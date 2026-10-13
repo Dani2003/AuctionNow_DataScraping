@@ -4,8 +4,7 @@ Pipeline Orchestrator.
 Coordinates configuration validation, adapter execution, fingerprint diffing,
 and output generation with structured logging and fault isolation.
 """
-from __future__ import annotations
-
+import time
 from datetime import date
 from importlib import import_module
 from pathlib import Path
@@ -15,8 +14,10 @@ from .detector import detect_new_models
 from .fingerprint import FingerprintStore
 from .http_client import PoliteClient
 from .logger import get_logger, setup_logging
-from .output_writer import write_run_report
-from .schema import RawListing, RunError, make_fingerprint
+from .metrics import record_run_metrics
+from .notifications import send_slack_notification
+from .output_writer import generate_slack_summary, write_run_report
+from .schema import RawListing, RunError, RunReport, RunSummary, make_fingerprint
 
 logger = get_logger("pipeline.orchestrator")
 
@@ -42,6 +43,7 @@ def run(config_path: str = "config.yaml", only_source: str | None = None, limit:
     detects newly released models, updates the fingerprint store, and writes reports.
     """
     setup_logging()
+    start_time = time.monotonic()
     logger.info("Initializing PK Market Data Engine run using config: %s", config_path)
 
     # 1. Startup configuration validation (fails fast and loud if invalid)
@@ -133,21 +135,56 @@ def run(config_path: str = "config.yaml", only_source: str | None = None, limit:
     store.save()
     logger.info("Atomically updated baseline fingerprints in %s", config.paths.fingerprint_store)
 
-    # 4. Generate JSON report
-    out_path = write_run_report(
+    runtime_seconds = time.monotonic() - start_time
+
+    # 4. Generate JSON and Markdown reports
+    json_path, md_path = write_run_report(
         run_date=run_date,
         new_models=new_models,
         errors=errors,
         sources_run=sources_run,
         sources_failed=sources_failed,
         runs_dir=config.paths.runs_dir,
+        runtime_seconds=runtime_seconds,
     )
 
     car_count = sum(1 for m in new_models if m.category.value == "car")
     mobile_count = sum(1 for m in new_models if m.category.value == "mobile")
 
-    logger.info("Run finished successfully.")
-    logger.info("Report generated: %s", out_path)
+    # 5. Append historical metrics
+    metrics_path = Path(config.paths.runs_dir) / "metrics.csv"
+    record_run_metrics(
+        metrics_path=metrics_path,
+        run_id=json_path.parent.name,
+        run_date=run_date,
+        sources_run=sources_run,
+        sources_failed=sources_failed,
+        new_cars=car_count,
+        new_mobiles=mobile_count,
+        errors_count=len(errors),
+        runtime_seconds=runtime_seconds,
+    )
+
+    # 6. Dispatch Slack notification (if webhook configured)
+    summary_obj = RunSummary(
+        sources_run=sources_run,
+        sources_failed=sources_failed,
+        new_cars=car_count,
+        new_mobiles=mobile_count,
+    )
+    report_obj = RunReport(
+        run_id=json_path.parent.name,
+        run_date=run_date,
+        summary=summary_obj,
+        new_models=new_models,
+        errors=errors,
+    )
+    slack_text = generate_slack_summary(report_obj, runtime_seconds=runtime_seconds)
+    send_slack_notification(config.notifications.slack_webhook_url, slack_text)
+
+    logger.info("Run finished successfully in %.2fs.", runtime_seconds)
+    logger.info("JSON report: %s", json_path)
+    logger.info("Markdown summary: %s", md_path)
     logger.info(
         "Run summary: sources_run=%d, sources_failed=%d, new_cars=%d, new_mobiles=%d, total_new=%d, errors=%d",
         sources_run,
@@ -158,4 +195,4 @@ def run(config_path: str = "config.yaml", only_source: str | None = None, limit:
         len(errors),
     )
 
-    return out_path
+    return json_path
