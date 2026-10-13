@@ -143,3 +143,87 @@ def test_http_client_403_fails_fast(monkeypatch, tmp_path):
 
     # 403 must fail immediately without retrying
     assert call_count == 1
+
+
+def test_output_writer_markdown_and_slack(tmp_path):
+    from pipeline.output_writer import write_run_report
+    from pipeline.schema import NewModelEntry, RunError
+
+    entry = NewModelEntry(
+        category=Category.mobile,
+        brand="Xiaomi",
+        model="14T Pro",
+        fingerprint="mobile:xiaomi:14t-pro",
+        first_seen_run=date(2026, 10, 13),
+        price_pkr=180000.0,
+        flags=["price_not_found"],
+        sources=[SourceRef(site="test.example", url="https://test.example/14t", fetched_at=datetime.now(UTC))],
+    )
+    err = RunError(source="broken_source", error="Connection reset", url="https://broken.example")
+
+    json_path, md_path = write_run_report(
+        run_date=date(2026, 10, 13),
+        new_models=[entry],
+        errors=[err],
+        sources_run=1,
+        sources_failed=1,
+        runs_dir=str(tmp_path / "runs"),
+        runtime_seconds=5.2,
+    )
+
+    assert json_path.exists()
+    assert md_path.exists()
+
+    md_text = md_path.read_text(encoding="utf-8")
+    assert "AuctionNow PK Market Engine — Weekly Run Summary" in md_text
+    assert "Xiaomi" in md_text
+    assert "14T Pro" in md_text
+    assert "price_not_found" in md_text
+    assert "Reviewer Flags & Diagnostic Guide" in md_text
+    assert "Errors & System Warnings" in md_text
+    assert "broken_source" in md_text
+
+
+def test_metrics_tracking(tmp_path):
+    from pipeline.metrics import record_run_metrics
+
+    metrics_csv = tmp_path / "metrics.csv"
+    record_run_metrics(
+        metrics_path=metrics_csv,
+        run_id="run-1",
+        run_date=date(2026, 10, 13),
+        sources_run=2,
+        sources_failed=0,
+        new_cars=1,
+        new_mobiles=2,
+        errors_count=0,
+        runtime_seconds=12.4,
+    )
+
+    content = metrics_csv.read_text(encoding="utf-8")
+    assert "run_id,run_date,timestamp" in content
+    assert "run-1,2026-10-13" in content
+
+    # Append second run
+    record_run_metrics(
+        metrics_path=metrics_csv,
+        run_id="run-2",
+        run_date=date(2026, 10, 20),
+        sources_run=2,
+        sources_failed=0,
+        new_cars=0,
+        new_mobiles=0,
+        errors_count=0,
+        runtime_seconds=3.1,
+    )
+
+    lines = metrics_csv.read_text(encoding="utf-8").strip().splitlines()
+    assert len(lines) == 3  # Header + 2 data rows
+
+
+def test_slack_notification_skipped_when_empty():
+    from pipeline.notifications import send_slack_notification
+
+    # Should gracefully return False without exceptions
+    assert not send_slack_notification("", "Test message")
+    assert not send_slack_notification(None, "Test message")
