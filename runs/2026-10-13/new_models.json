@@ -1,12 +1,233 @@
 {
-  "run_id": "2026-10-13T12-00-36Z",
+  "run_id": "2026-10-13T12-24-05Z",
   "run_date": "2026-10-13",
   "summary": {
     "sources_run": 1,
     "sources_failed": 0,
-    "new_cars": 0,
+    "new_cars": 4,
     "new_mobiles": 0
   },
-  "new_models": [],
-  "errors": []
+  "new_models": [
+    {
+      "category": "car",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "variant": null,
+      "model_year": null,
+      "fingerprint": "car:toyota:corolla",
+      "first_seen_run": "2026-10-13",
+      "price_pkr": 6099000.0,
+      "price_as_of": "2026-10-13",
+      "specs": {},
+      "ram_options": [],
+      "storage_options": [],
+      "color_options": [
+        "Exterior Color"
+      ],
+      "images": [
+        "https://toyota-indus.com/wp-content/uploads/2022/10/corolla-cross.png"
+      ],
+      "sources": [
+        {
+          "site": "toyota-indus.com",
+          "url": "https://toyota-indus.com/corolla/",
+          "fetched_at": "2026-10-13T12:23:45.265259Z"
+        }
+      ],
+      "confidence": "medium",
+      "flags": [
+        "specs_empty"
+      ]
+    },
+    {
+      "category": "car",
+      "brand": "Toyota",
+      "model": "Yaris",
+      "variant": null,
+      "model_year": null,
+      "fingerprint": "car:toyota:yaris",
+      "first_seen_run": "2026-10-13",
+      "price_pkr": 6099000.0,
+      "price_as_of": "2026-10-13",
+      "specs": {
+        "Exterior L x W x H": "(mm) | 4425 x 1730 x 1475",
+        "Wheel Base": "(mm) | 2550",
+        "Minimum Turning Radius (Tire)": "(m) | 5.1",
+        "Luggage Compartment Capacity": "Ltr | 476",
+        "Displacement": "(cc) | 1496",
+        "Engine Code": "2NR - FE",
+        "Engine Type": "In-Line 4 cylinders",
+        "Fuel Supply System": "Sequential Multi-port Fuel\n                                                    Injection (SFI)",
+        "Valve Train": "16-Valve DOHC, chain drive with\n                                                    Dual VVT-i",
+        "Maximum Output": "kW(HP)/rpm | 79 (105.9)/6000",
+        "Maximum Torque": "Nm/rpm | 140/4200",
+        "Braking System": "Antilock Braking System (ABS) | 0",
+        "Brake Assist (BA)": "0",
+        "Brake Disc Type": "Front | Ventilated Discs",
+        "Transmission": "5 Speed Manual Transmission | 7 Speed Continuous Variable Transmission",
+        "Sports Mode": "X | O",
+        "Eco Mode": "X | O",
+        "Suspension": "Front | MacPherson Strut",
+        "Rear": "3 Passenger: 3 Point ELR",
+        "Steering System": "Electric Power Steering (EPS)",
+        "Tires Size": "185/60R15",
+        "Wheel Type": "15\" Aluminum Alloy Rims",
+        "Fuel Tank": "Ltr",
+        "Front Radiator Grille": "Partial Chrome Plating",
+        "Daytime Running Lamp": "o",
+        "Front Fog Lamps": "o",
+        "Rear Lamp": "With LED Line Guide",
+        "Colored Outside Door Handles": "Chrome (with smart switch)",
+        "Windshield": "Laminated Green (Acoustic)",
+        "Intermittent Windshield Wipers": "o",
+        "Antenna": "Short Pole",
+        "Rear Chrome Garnish": "o",
+        "Air Conditioner + Heater": "Auto AC",
+        "Multi Information Display": "4.2\" Colour TFT Display",
+        "Outside Temperature Display": "o",
+        "Speedometer": "Advanced Optitron Meter",
+        "Tachometer": "o",
+        "Economy Meter": "x | ECO Lamp with Zone",
+        "Push Start System": "o",
+        "Wireless Key": "Door | Smart Key",
+        "Remote Trunk Opener": "o",
+        "Steering Wheel": "Wheel | 3 Spoke",
+        "Column": "Tilt",
+        "Steering Wheel Switches": "MID + Audio + Bluetooth Switch",
+        "Seat Material": "Premium Fabric with Stitch Design",
+        "Rear Headrest": "3 Separate",
+        "Illuminated Entry System": "o",
+        "Power Windows": "o",
+        "Interior Color Scheme": "Ivory",
+        "Door Trim Ornament": "Fabric",
+        "Gear Shift Lever": "Standard with Silver Plating | Gate Type with Silver Plating",
+        "Inside Door Handle": "Chrome",
+        "Foot Rest": "o",
+        "Floor Mat": "o",
+        "Central Door Locking": "o",
+        "Front Personal Lamp": "o",
+        "Room Lamp": "o",
+        "Sun visor": "o",
+        "Vanity Mirror": "Driver + Passenger",
+        "Center Console Box": "o",
+        "Front Power Outlet [12 V]": "o",
+        "Two Rear Power Outlets": "o",
+        "Digital Clock": "o",
+        "Car Infotainment System": "In-dash infotainment with 6.8\"\n                                                    capacitive touch screen (including , advanced Bluetooth (2 phones\n                                                    handsfree ready, 5 phones seamless music streaming), MP3, DVD/VCD\n                                                    Playable, USB, 2 way wired Mirror Link, Radio and AUX Connectivity)",
+        "Rear Camera": "o",
+        "Speaker": "6 SP",
+        "SRS Airbag": "Driver + Passenger",
+        "Key Reminder Warning": "o",
+        "Hill Start Assist System": "o",
+        "Vehicle Stability Control": "o",
+        "Fuel Auto Cut": "o",
+        "Seat Belt": "Front | Driver + Passenger: 3 Point ELR\n                                                    with Pretensioner and Force Limiter",
+        "ISOFIX Child Seat Anchors": "o",
+        "Immobilizer System": "With (Alarm & Immobilizer)",
+        "Light Reminder Warning": "o",
+        "High Mount Stop Lamp": "o"
+      },
+      "ram_options": [],
+      "storage_options": [],
+      "color_options": [],
+      "images": [
+        "https://toyota-indus.com/wp-content/uploads/2024/05/IMC-Yaris24-Day-259907-1-scaled.jpg",
+        "https://toyota-indus.com/wp-content/uploads/2024/06/IMC-Yaris24-Day-262637-1-scaled.jpg",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/Yaris-Engine-Type.png",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/Yaris-5-speed-manual-transmission.png",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/Yaris-7-speed-continuous-transmission.png",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/Yaris-eco-mode.png",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/Yaris-Stability-Control.png",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/Yaris-hill-assist-control.png",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/Yaris-Traction-Control.png",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/Yaris-Rear-Camera.png",
+        "https://toyota-indus.com/wp-content/uploads/2022/11/Bank-Finance-KV7Yaris.png"
+      ],
+      "sources": [
+        {
+          "site": "toyota-indus.com",
+          "url": "https://toyota-indus.com/yaris/",
+          "fetched_at": "2026-10-13T12:23:50.306585Z"
+        }
+      ],
+      "confidence": "medium",
+      "flags": [
+        "color_not_found"
+      ]
+    },
+    {
+      "category": "car",
+      "brand": "Toyota",
+      "model": "Camry Hybrid",
+      "variant": null,
+      "model_year": null,
+      "fingerprint": "car:toyota:camry-hybrid",
+      "first_seen_run": "2026-10-13",
+      "price_pkr": 6099000.0,
+      "price_as_of": "2026-10-13",
+      "specs": {},
+      "ram_options": [],
+      "storage_options": [],
+      "color_options": [],
+      "images": [
+        "https://toyota-indus.com/wp-content/uploads/2022/10/camry-hybrid-new.png",
+        "https://toyota-indus.com/wp-content/uploads/2026/04/05.-Toyota-Camry-KV--scaled.jpg",
+        "https://toyota-indus.com/wp-content/uploads/2026/04/04.-Toyota-Camry-KV--scaled.jpg",
+        "https://toyota-indus.com/wp-content/uploads/2026/04/camry-sec.jpg",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/camry-interior-banner.jpg",
+        "https://toyota-indus.com/wp-content/uploads/2026/04/camry-sec1.jpg",
+        "https://toyota-indus.com/wp-content/uploads/2022/10/camry-safety-banner.jpg"
+      ],
+      "sources": [
+        {
+          "site": "toyota-indus.com",
+          "url": "https://toyota-indus.com/camry-hybrid/",
+          "fetched_at": "2026-10-13T12:23:55.173397Z"
+        }
+      ],
+      "confidence": "medium",
+      "flags": [
+        "color_not_found",
+        "specs_empty"
+      ]
+    },
+    {
+      "category": "car",
+      "brand": "Toyota",
+      "model": "Corolla Cross",
+      "variant": null,
+      "model_year": null,
+      "fingerprint": "car:toyota:corolla-cross",
+      "first_seen_run": "2026-10-13",
+      "price_pkr": 6099000.0,
+      "price_as_of": "2026-10-13",
+      "specs": {},
+      "ram_options": [],
+      "storage_options": [],
+      "color_options": [],
+      "images": [
+        "https://toyota-indus.com/wp-content/uploads/2022/10/corolla-cross.png",
+        "https://toyota-indus.com/wp-content/uploads/2023/12/Corolla-Cross-Brochure-1024x538.png"
+      ],
+      "sources": [
+        {
+          "site": "toyota-indus.com",
+          "url": "https://toyota-indus.com/corolla-cross/",
+          "fetched_at": "2026-10-13T12:24:05.173134Z"
+        }
+      ],
+      "confidence": "medium",
+      "flags": [
+        "color_not_found",
+        "specs_empty"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "source": "indus_motor_toyota",
+      "error": "Client error '404 Not Found' for url 'https://toyota-indus.com/prius-hybrid/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+      "url": "https://toyota-indus.com/prius-hybrid/"
+    }
+  ]
 }
