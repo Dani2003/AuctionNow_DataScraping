@@ -17,6 +17,7 @@ from .logger import get_logger, setup_logging
 from .metrics import record_run_metrics
 from .notifications import send_slack_notification
 from .output_writer import generate_slack_summary, write_run_report
+from .reconciliation import reconcile_with_backend, save_reconciliation_report
 from .schema import RawListing, RunError, RunReport, RunSummary, make_fingerprint
 
 logger = get_logger("pipeline.orchestrator")
@@ -25,6 +26,7 @@ logger = get_logger("pipeline.orchestrator")
 ADAPTER_REGISTRY = {
     "whatmobile": "adapters.mobiles.whatmobile:WhatMobileAdapter",
     "priceoye": "adapters.mobiles.priceoye:PriceOyeAdapter",
+    "priceoye_laptops": "adapters.laptops.priceoye_laptops:PriceOyeLaptopsAdapter",
     "pakwheels_new_cars": "adapters.cars.pakwheels_new_cars:PakWheelsNewCarsAdapter",
     "indus_motor_toyota": "adapters.cars.toyota_indus:ToyotaIndusAdapter",
 }
@@ -137,7 +139,21 @@ def run(config_path: str = "config.yaml", only_source: str | None = None, limit:
 
     runtime_seconds = time.monotonic() - start_time
 
-    # 4. Generate JSON and Markdown reports
+    # 4. Catalog Reconciliation against AuctionNow backend
+    rec_models = new_models if new_models else all_listings
+    logger.info("Executing catalog reconciliation against AuctionNow backend across %d models...", len(rec_models))
+    reconciliation_report = reconcile_with_backend(
+        models=rec_models,
+        backend_dir=config.paths.backend_catalog_dir,
+        run_date=run_date,
+    )
+    rec_json_path = save_reconciliation_report(
+        report_data=reconciliation_report,
+        runs_dir=config.paths.runs_dir,
+        run_date=run_date,
+    )
+
+    # 5. Generate JSON and Markdown reports
     json_path, md_path = write_run_report(
         run_date=run_date,
         new_models=new_models,
@@ -146,12 +162,15 @@ def run(config_path: str = "config.yaml", only_source: str | None = None, limit:
         sources_failed=sources_failed,
         runs_dir=config.paths.runs_dir,
         runtime_seconds=runtime_seconds,
+        reconciliation_report=reconciliation_report,
     )
 
     car_count = sum(1 for m in new_models if m.category.value == "car")
     mobile_count = sum(1 for m in new_models if m.category.value == "mobile")
+    laptop_count = sum(1 for m in new_models if m.category.value == "laptop")
+    bike_count = sum(1 for m in new_models if m.category.value == "bike")
 
-    # 5. Append historical metrics
+    # 6. Append historical metrics
     metrics_path = Path(config.paths.runs_dir) / "metrics.csv"
     record_run_metrics(
         metrics_path=metrics_path,
@@ -161,16 +180,20 @@ def run(config_path: str = "config.yaml", only_source: str | None = None, limit:
         sources_failed=sources_failed,
         new_cars=car_count,
         new_mobiles=mobile_count,
+        new_laptops=laptop_count,
+        new_bikes=bike_count,
         errors_count=len(errors),
         runtime_seconds=runtime_seconds,
     )
 
-    # 6. Dispatch Slack notification (if webhook configured)
+    # 7. Dispatch Slack notification (if webhook configured)
     summary_obj = RunSummary(
         sources_run=sources_run,
         sources_failed=sources_failed,
         new_cars=car_count,
         new_mobiles=mobile_count,
+        new_laptops=laptop_count,
+        new_bikes=bike_count,
     )
     report_obj = RunReport(
         run_id=json_path.parent.name,
@@ -185,12 +208,15 @@ def run(config_path: str = "config.yaml", only_source: str | None = None, limit:
     logger.info("Run finished successfully in %.2fs.", runtime_seconds)
     logger.info("JSON report: %s", json_path)
     logger.info("Markdown summary: %s", md_path)
+    logger.info("AuctionNow Reconciliation report: %s", rec_json_path)
     logger.info(
-        "Run summary: sources_run=%d, sources_failed=%d, new_cars=%d, new_mobiles=%d, total_new=%d, errors=%d",
+        "Run summary: sources_run=%d, sources_failed=%d, new_cars=%d, new_mobiles=%d, new_laptops=%d, new_bikes=%d, total_new=%d, errors=%d",
         sources_run,
         sources_failed,
         car_count,
         mobile_count,
+        laptop_count,
+        bike_count,
         len(new_models),
         len(errors),
     )

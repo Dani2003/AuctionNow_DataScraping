@@ -181,3 +181,53 @@ def test_toyota_indus_detail_from_fixture(dummy_client):
     assert "Exterior L x W x H" in listing.specs
     assert len(listing.images) > 0
     assert listing.fingerprint_key() == "car:toyota:yaris"
+
+
+def test_priceoye_laptops_candidates_from_fixture(dummy_client):
+    from adapters.laptops.priceoye_laptops import PriceOyeLaptopsAdapter
+
+    html = (FIXTURES_DIR / "priceoye_laptops_listing.html").read_text(encoding="utf-8")
+    adapter = PriceOyeLaptopsAdapter(dummy_client, "https://priceoye.pk", rate_limit_seconds=0)
+
+    candidates = adapter.parse_candidates_from_html(html)
+    assert len(candidates) == 4
+
+    first = candidates[0]
+    assert first["brand"] == "Apple"
+    assert "MacBook Air 13 M3" in first["model"]
+    assert first["url"] == "https://priceoye.pk/laptops/apple/apple-macbook-air-13-m3"
+
+    brands = [c["brand"] for c in candidates]
+    assert "Apple" in brands
+    assert "HP" in brands
+    assert "Lenovo" in brands
+    assert "Dell" in brands
+
+
+def test_priceoye_laptops_detail_from_fixture(dummy_client):
+    from adapters.laptops.priceoye_laptops import PriceOyeLaptopsAdapter
+
+    html = (FIXTURES_DIR / "priceoye_laptops_detail.html").read_text(encoding="utf-8")
+    adapter = PriceOyeLaptopsAdapter(dummy_client, "https://priceoye.pk", rate_limit_seconds=0)
+
+    candidate = {
+        "brand": "Apple",
+        "model": "MacBook Air 13 M3",
+        "variant": None,
+        "url": "https://priceoye.pk/laptops/apple/apple-macbook-air-13-m3",
+    }
+    listing = adapter.parse_detail_from_html(candidate, html)
+
+    assert listing.category == Category.laptop
+    assert listing.brand == "Apple"
+    assert listing.model == "MacBook Air 13 M3"
+    assert listing.price_pkr == 349999.0
+    assert "Midnight" in listing.color_options
+    assert "Space Gray" in listing.color_options
+    assert "8GB" in listing.ram_options
+    assert "256GB" in listing.storage_options
+    assert listing.specs.get("processor") == "M3"
+    assert len(listing.images) > 0
+    assert listing.fingerprint_key() == "laptop:apple:macbook-air-13-m3"
+    assert listing.confidence == "high"
+

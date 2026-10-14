@@ -16,6 +16,8 @@ from pydantic import BaseModel, Field
 class Category(str, Enum):
     car = "car"
     mobile = "mobile"
+    laptop = "laptop"
+    bike = "bike"
 
 
 class SourceRef(BaseModel):
@@ -104,8 +106,10 @@ class RunError(BaseModel):
 class RunSummary(BaseModel):
     sources_run: int
     sources_failed: int
-    new_cars: int
-    new_mobiles: int
+    new_cars: int = 0
+    new_mobiles: int = 0
+    new_laptops: int = 0
+    new_bikes: int = 0
 
 
 class RunReport(BaseModel):

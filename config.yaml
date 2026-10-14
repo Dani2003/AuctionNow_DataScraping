@@ -5,6 +5,7 @@ paths:
   fingerprint_store: storage/fingerprints.json
   runs_dir: runs
   cache_dir: .cache
+  backend_catalog_dir: auctionnow_backend_json
 
 http:
   user_agent: "AuctionNowMarketBot/0.1 (+contact: your-team@auctionnow.example; purpose: product catalog research)"
@@ -52,6 +53,14 @@ sources:
     enabled: true            # enabled after robots_check passed and adapter implemented
     rate_limit_seconds: 5
     notes: "Manufacturer official specs. Add after PakWheels adapter is proven."
+
+  - id: priceoye_laptops
+    category: laptop
+    name: "PriceOye.pk — Laptops"
+    base_url: "https://priceoye.pk"
+    enabled: true            # enabled after robots_check and adapter implemented
+    rate_limit_seconds: 4
+    notes: "Laptop catalog section with structured pricing, RAM/storage specs, and variant options."
 
 notifications:
   slack_webhook_url: ""   # set via environment/secret in CI, not committed here

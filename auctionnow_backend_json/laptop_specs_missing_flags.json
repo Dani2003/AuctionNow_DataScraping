@@ -1,0 +1,5720 @@
+[
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m5",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m5",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-pro",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-pro",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-pro",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-pro",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-pro",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-pro",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-pro",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-pro",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-pro",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-pro",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-pro",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-pro",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-max",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-max",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-max",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-max",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-max",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m5-max",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-max",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-max",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-max",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-max",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-max",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m5-max",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m4",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m4",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m4",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m4",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m4",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m4",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m4",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m4",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m4",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m4",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m4",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-max",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m4",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-max",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-max",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-max",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-max",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-max",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-max",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-max",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-max",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-max",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-max",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-max",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-pro",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-pro",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-pro",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-pro",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-pro",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-pro",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4-pro",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-pro",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-pro",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-pro",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-pro",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m4-pro",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m4",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m3",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m3",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-max",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-max",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-max",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-max",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-max",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-max",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-max",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-max",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-max",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-max",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-max",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-max",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-pro",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-pro",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-pro",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-pro",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-pro",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3-pro",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-pro",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-pro",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-pro",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-pro",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-pro",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-16-m3-pro",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-pro-14-m3",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m2",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m2",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m2",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m2",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m2",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-15-m2",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m2",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m2",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m2",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m2",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m2",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "apple",
+    "model": "macbook-air-13-m2",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-ultra-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-ultra-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-ultra-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-ultra-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-ultra-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-ultra-14",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-14",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-elitebook-840-g11",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-elitebook-840-g11",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-elitebook-840-g11",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-elitebook-840-g11",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-elitebook-840-g11",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-elitebook-840-g11",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-probook-450-g11",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-probook-450-g11",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-probook-450-g11",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-probook-450-g11",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-probook-450-g11",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-probook-450-g11",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-envy-x360-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-envy-x360-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-envy-x360-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-envy-x360-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-envy-x360-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-envy-x360-14",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-spectre-x360-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-spectre-x360-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-spectre-x360-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-spectre-x360-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-spectre-x360-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-spectre-x360-14",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-pavilion-plus-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-pavilion-plus-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-pavilion-plus-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-pavilion-plus-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-pavilion-plus-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-pavilion-plus-14",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-victus-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-victus-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-victus-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-victus-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-victus-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-victus-15",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-15-6",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-15-6",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-15-6",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-15-6",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-15-6",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-17-3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-17-3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-17-3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-17-3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-3-17-3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-flip-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-flip-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-flip-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-flip-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-5-flip-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-aero-13-3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-aero-13-3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-aero-13-3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-aero-13-3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-aero-13-3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-flip-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-flip-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-flip-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-17-3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-flip-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-flip-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-17-3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-17-3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-17-3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-7-17-3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omnibook-x-flip-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-17",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-17",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-17",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-17",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-17",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-max-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-max-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-max-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-max-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "hp",
+    "model": "hp-omen-max-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-xps-13-9345",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-13",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-xps-13-9345",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-xps-13-9345",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-xps-13-9345",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-xps-13-9345",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-xps-13-9345",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-13",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-13",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-13",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-13",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-15",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "inspiron-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "inspiron-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "inspiron-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15-r7",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "inspiron-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "inspiron-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15-r7",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "inspiron-15",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15-r7",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15-r7",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15-r7",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15-r7",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "alienware-m15",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "latitude-5420",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "latitude-5420",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "latitude-5420",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "latitude-5420",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "latitude-5420",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "latitude-5420",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "xps-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-14-plus",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-14-plus",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-14-plus",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-14-plus",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16s",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-14-plus",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-9i-2-in-1-aura-edition",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16s",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-9i-2-in-1-aura-edition",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16s",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16s",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-9i-2-in-1-aura-edition",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "dell",
+    "model": "dell-16s",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-9i-2-in-1-aura-edition",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-9i-2-in-1-aura-edition",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-9i-2-in-1-aura-edition",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5-gen-9",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5-gen-9",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5-gen-9",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-pro-5-gen-9",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5-gen-9",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5-gen-9",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5-gen-9",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-pro-5-gen-9",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-pro-5-gen-9",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-pro-5-gen-9",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-pro-5-gen-9",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "loq-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-pro-5-gen-9",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "loq-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "loq-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "loq-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "loq-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-t14-gen-5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "loq-15",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-t14-gen-5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-t14-gen-5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-t14-gen-5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-t14-gen-5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-t14-gen-5",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x1-carbon-gen-12",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x1-carbon-gen-12",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x1-carbon-gen-12",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x1-carbon-gen-12",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x1-carbon-gen-12",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x1-carbon-gen-12",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-5",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-gaming-3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-gaming-3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-gaming-3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-gaming-3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-gaming-3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-gaming-3",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "yoga-7-2-in-1-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-3x-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-3x-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-3x-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-3x-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-slim-3x-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-5-2-in-1-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-5-2-in-1-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-5-2-in-1-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-5-2-in-1-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "ideapad-5-2-in-1-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkbook-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x9-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x9-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x9-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x9-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-x9-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-e16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-e16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-e16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-e16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "thinkpad-e16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "lenovo",
+    "model": "legion-5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "creator-16-ai-studio",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "creator-16-ai-studio",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "creator-16-ai-studio",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "creator-16-ai-studio",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "creator-16-ai-studio",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "creator-16-ai-studio",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-16-ai-studio",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-16-ai-studio",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-16-ai-studio",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-16-ai-studio",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-16-ai-studio",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-studio",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-16-ai-studio",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-studio",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-studio",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-studio",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-studio",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-studio",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-evo",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-evo",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-evo",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-evo",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-evo",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-evo",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-ge78-hx",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-ge78-hx",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-ge78-hx",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-ge78-hx",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-ge78-hx",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-ge78-hx",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "cyborg-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "cyborg-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "cyborg-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "cyborg-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "cyborg-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "modern-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "modern-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "modern-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "modern-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "modern-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "modern-14",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "gf63-thin",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "gf63-thin",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "gf63-thin",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "titan-18-hx-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "titan-18-hx-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "gf63-thin",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "gf63-thin",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "gf63-thin",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "titan-18-hx-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "titan-18-hx-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "titan-18-hx-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-18-hx-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-18-hx-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-18-hx-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-18-hx-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "raider-18-hx-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-18-hx-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-18-hx-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-18-hx-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-a16-ai-plus",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-18-hx-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-a16-ai-plus",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-18-hx-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-a16-ai-plus",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-a16-ai-plus",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "stealth-a16-ai-plus",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "vector-18-hx-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "vector-18-hx-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "vector-18-hx-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "vector-18-hx-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "crosshair-18-hx-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "vector-18-hx-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "crosshair-18-hx-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "crosshair-18-hx-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "crosshair-18-hx-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "crosshair-18-hx-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-plus",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-plus",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-plus",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-plus",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-16-ai-plus",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-14-flip-ai-plus",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-14-flip-ai-plus",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-14-flip-ai-plus",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-14-flip-ai-plus",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-14-flip-ai-plus",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-a16-ai-plus",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-a16-ai-plus",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-a16-ai-plus",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-a16-ai-plus",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "prestige-a16-ai-plus",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "venturepro-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "venturepro-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "venturepro-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "msi",
+    "model": "venturepro-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "msi",
+    "model": "venturepro-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-7th-edition",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-7th-edition",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-7th-edition",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-7th-edition",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-7th-edition",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-7th-edition",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-11th-edition",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-11th-edition",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-11th-edition",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-11th-edition",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-11th-edition",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-11th-edition",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-6-for-business",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-6-for-business",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-6-for-business",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-6-for-business",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-6-for-business",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-6-for-business",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-10-for-business",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-10-for-business",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-10-for-business",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-10-for-business",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-10-for-business",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-studio-2",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-10-for-business",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-studio-2",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-studio-2",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-studio-2",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-studio-2",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-studio-2",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-go-3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-go-3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-go-3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-go-3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-go-3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-go-3",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-13-inch",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-13-inch",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-13-inch",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-13-inch",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-13-inch",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12-inch",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12-inch",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12-inch",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12-inch",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12-inch",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-8th-edition",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-8th-edition",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-8th-edition",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-8th-edition",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-8th-edition",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-8th-edition",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-8th-edition",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-8th-edition",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-8th-edition",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-8th-edition",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-13-inch",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-13-inch",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-13-inch",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-13-inch",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-laptop-for-business-13-inch",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12th-edition",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12th-edition",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12th-edition",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12th-edition",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-12th-edition",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12th-edition",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12th-edition",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12th-edition",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12th-edition",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12th-edition",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12-inch",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12-inch",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12-inch",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12-inch",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-12-inch",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-11th-edition",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-11th-edition",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-11th-edition",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-11th-edition",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "microsoft",
+    "model": "surface-pro-for-business-11th-edition",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-x-pro-2024",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-x-pro-2024",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-x-pro-2024",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-x-pro-2024",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-x-pro-2024",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-x-pro-2024",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-14-2024",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-14-2024",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-14-2024",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-14-2024",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-14-2024",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-14-2024",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-16-2024",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-16-2024",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-16-2024",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-16-2024",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-16-2024",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-16-2024",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-14-2024",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-14-2024",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-14-2024",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-14-2024",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-14-2024",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "huawei",
+    "model": "matebook-d-14-2024",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y4-max",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "gt-book",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y4-max",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "gt-book",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "gt-book",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "gt-book",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "gt-book",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "gt-book",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y4-max",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y4-max",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y3-max",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y4-max",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y4-max",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y3-max",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y3-max",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y3-max",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y3-max",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-y3-max",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x3-slim",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x3-slim",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x3-slim",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x3-slim",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x3-slim",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x3-slim",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-ultra",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-ultra",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-ultra",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-ultra",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-ultra",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-ultra",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-air-proplus",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-air-proplus",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-air-proplus",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-air-proplus",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-air-proplus",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-air-proplus",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-13",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-13",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-13",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-13",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-13",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "zerobook-13",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-slim",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-slim",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-slim",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-slim",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-slim",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-slim",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "xbook-b15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-2025",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-2025",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-2025",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-2025",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "infinix",
+    "model": "inbook-x2-2025",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-5",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-300",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-300",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-5",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-300",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-300",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-300",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-300",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-3",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-x-16-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-x-16-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-x-16-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-x-16-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-x-16-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-16-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-16-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-16-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-16-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-go-14-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-go-14-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-go-14-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-go-14-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-go-14-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "aspire-16-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-x-14-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-x-14-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-x-14-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-x-14-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "swift-x-14-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-16-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-16-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-16-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-16-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "nitro-v-16-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-neo-16-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-neo-16-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-neo-16-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-neo-16-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-neo-16-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-18-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-18-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-18-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-18-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "predator-helios-18-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "travelmate-p6-14-ai",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "travelmate-p6-14-ai",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "travelmate-p6-14-ai",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "travelmate-p6-14-ai",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "travelmate-p6-14-ai",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "chromebook-plus-515",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "chromebook-plus-515",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "chromebook-plus-515",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "acer",
+    "model": "chromebook-plus-515",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "acer",
+    "model": "chromebook-plus-515",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2024",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2024",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2024",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2024",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2024",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2024",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2024",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2024",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2024",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2024",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2024",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2024",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2024",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2024",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2024",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2024",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2024",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2024",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2024",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2024",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2024",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2024",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2024",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2024",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-14",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2026",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2026",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2026",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2026",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-16-2026",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2026",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2026",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2026",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2026",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-pro-14-2026",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-pro-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-pro-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-pro-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-pro-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "xiaomi-book-pro-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2026",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2026",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2026",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2026",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-16-2026",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2026",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2026",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2026",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2026",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-14-2026",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-ryzen-edition-2025",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-ryzen-edition-2025",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-ryzen-edition-2025",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-ryzen-edition-2025",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "xiaomi",
+    "model": "redmi-book-ryzen-edition-2025",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g14",
+    "attribute": "generation",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g14",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g16",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-p16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-p16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-p16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-p16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-p16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-p16",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-s-14-oled",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-s-14-oled",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-s-14-oled",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-s-14-oled",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-s-14-oled",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-s-14-oled",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-14-oled",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-14-oled",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-14-oled",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-14-oled",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-14-oled",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-14-oled",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-a15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-a15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-a15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-a15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-a15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-a15",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-15",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-15",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-15",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-15",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-15",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-15",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-b1",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-b1",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-b1",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-b1",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-b1",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-b1",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g16",
+    "attribute": "generation",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g18",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-zephyrus-g16",
+    "attribute": "screen_size",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g18",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g18",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g18",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-rog-strix-g18",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-f16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-f16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-f16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-f16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-tuf-gaming-f16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-s-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-duo",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-duo",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-duo",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-duo",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-duo",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-a16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-a16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-a16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-a16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-zenbook-a16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-16",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-16",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-16",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-16",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-16",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-18",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-18",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-18",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-18",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-vivobook-18",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-px13",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-px13",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-px13",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-px13",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-px13",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-pz14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-pz14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-pz14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-pz14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-proart-pz14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p3",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p3",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p3",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p3",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p3",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p5",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p5",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p5",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p5",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-expertbook-p5",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-chromebook-plus-cx14",
+    "attribute": "color",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-chromebook-plus-cx14",
+    "attribute": "processor",
+    "issue": "ERROR: 404: {\"success\":false,\"message\":\"Attribute is not available for this category and selection.\",\"data\":null,\"error_code\":\"API_ERROR\"}"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-chromebook-plus-cx14",
+    "attribute": "ram",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-chromebook-plus-cx14",
+    "attribute": "gpu",
+    "issue": "EMPTY \u2014 no options returned"
+  },
+  {
+    "brand": "asus",
+    "model": "asus-chromebook-plus-cx14",
+    "attribute": "storage",
+    "issue": "EMPTY \u2014 no options returned"
+  }
+]

@@ -22,6 +22,8 @@ CSV_HEADER = [
     "sources_failed",
     "new_cars",
     "new_mobiles",
+    "new_laptops",
+    "new_bikes",
     "total_new_models",
     "errors_count",
     "runtime_seconds",
@@ -38,6 +40,8 @@ def record_run_metrics(
     new_mobiles: int,
     errors_count: int,
     runtime_seconds: float,
+    new_laptops: int = 0,
+    new_bikes: int = 0,
 ) -> Path:
     """
     Append run metrics to CSV file.
@@ -48,6 +52,7 @@ def record_run_metrics(
 
     file_exists = path.exists() and path.stat().st_size > 0
 
+    total_new = new_cars + new_mobiles + new_laptops + new_bikes
     row = [
         run_id,
         run_date.isoformat(),
@@ -56,7 +61,9 @@ def record_run_metrics(
         sources_failed,
         new_cars,
         new_mobiles,
-        new_cars + new_mobiles,
+        new_laptops,
+        new_bikes,
+        total_new,
         errors_count,
         round(runtime_seconds, 2),
     ]

@@ -18,6 +18,7 @@ class PathsConfig(BaseModel):
     fingerprint_store: str = "storage/fingerprints.json"
     runs_dir: str = "runs"
     cache_dir: str = ".cache"
+    backend_catalog_dir: str = "auctionnow_backend_json"
 
 
 class HttpConfig(BaseModel):

@@ -227,3 +227,84 @@ def test_slack_notification_skipped_when_empty():
     # Should gracefully return False without exceptions
     assert not send_slack_notification("", "Test message")
     assert not send_slack_notification(None, "Test message")
+
+
+def test_orchestrator_reconciliation_integration(tmp_path, monkeypatch):
+    import yaml
+    from adapters.base import BaseAdapter
+    from pipeline import orchestrator
+
+    class MockLaptopAdapter(BaseAdapter):
+        source_id = "mock_laptop_src"
+        category = "laptop"
+
+        def list_candidates(self):
+            return [{
+                "brand": "Apple",
+                "model": "MacBook Air 13 M3",
+                "variant": "256GB",
+                "url": "https://priceoye.pk/laptops/apple/macbook-air-13-m3",
+            }]
+
+        def fetch_detail(self, candidate):
+            return RawListing(
+                category=Category.laptop,
+                brand="Apple",
+                model="MacBook Air 13 M3",
+                variant="256GB",
+                price_pkr=349999.0,
+                ram_options=["8GB", "16GB"],
+                storage_options=["256GB", "512GB"],
+                color_options=["Midnight", "Starlight"],
+                source=SourceRef(site="mock.pk", url=candidate["url"], fetched_at=datetime.now(UTC)),
+            )
+
+    monkeypatch.setitem(orchestrator.ADAPTER_REGISTRY, "mock_laptop_src", "mock:MockLaptopAdapter")
+    monkeypatch.setattr(orchestrator, "_load_adapter_class", lambda _path: MockLaptopAdapter)
+
+    config_data = {
+        "paths": {
+            "fingerprint_store": str(tmp_path / "fp.json"),
+            "runs_dir": str(tmp_path / "runs"),
+            "cache_dir": str(tmp_path / ".cache"),
+            "backend_catalog_dir": str(Path(__file__).parent.parent / "auctionnow_backend_json"),
+        },
+        "http": {
+            "user_agent": "TestBot/1.0",
+            "default_timeout_seconds": 10,
+            "default_rate_limit_seconds": 0,
+            "cache_max_age_hours": 24,
+        },
+        "sources": [
+            {
+                "id": "mock_laptop_src",
+                "category": "laptop",
+                "name": "Mock Laptop Source",
+                "base_url": "https://priceoye.pk",
+                "enabled": True,
+                "rate_limit_seconds": 0,
+            }
+        ],
+        "notifications": {
+            "slack_webhook_url": "",
+        },
+    }
+
+    cfg_file = tmp_path / "config.yaml"
+    cfg_file.write_text(yaml.dump(config_data), encoding="utf-8")
+
+    out_json = orchestrator.run(config_path=str(cfg_file))
+    assert out_json.exists()
+
+    run_dir = out_json.parent
+    md_file = run_dir / "summary.md"
+    assert md_file.exists()
+    md_text = md_file.read_text(encoding="utf-8")
+    assert "AuctionNow App Catalog Reconciliation" in md_text
+
+    rec_json = run_dir / "models_to_add_to_auctionnow.json"
+    assert rec_json.exists()
+    rec_text = rec_json.read_text(encoding="utf-8")
+    assert "missing_models" in rec_text
+    assert "catalog_sources_reconciled" in rec_text
+
